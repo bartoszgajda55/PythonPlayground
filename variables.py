@@ -1,23 +1,15 @@
-# Variables and data types
-greeting = "Hello World"
-greeting = "Hello Everyone"
-print(greeting)
+# A variable is a container for a value, which can be of various types
 
-# Data types
-myStr = "String"
-myInt = 25
-myFloat = 1.3
+'''
+This is a 
+multiline comment
+or docstring (used to define a functions purpose)
+can be single or double quotes
+'''
 
-myList = [1, 2, 3, "First"]
-myDictionary = {"a": 1, "b": 2, "c": 3}
-
-print(type(myStr), myStr)
-print(type(myInt), myInt)
-print(type(myFloat), myFloat)
-print(type(myList), myList)
-print(type(myDictionary), myDictionary)
-
-print(myList[3])
-print(myDictionary["a"])
-
-print(myStr, "World")
+"""
+VARIABLE RULES:
+  - Variable names are case sensitive (name and NAME are different variables)
+  - Must start with a letter or an underscore
+  - Can have numbers but can not start with one
+"""
